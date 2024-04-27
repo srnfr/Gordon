@@ -28,6 +28,7 @@ def classify(tcpFile): #, filename, plotPath):
             plt.close()
     	"""
     except Exception as e:
+	print("An error occurred:", e)
         answer['method'] = "short_flow_no_data"
         return answer['method']
     
@@ -467,5 +468,5 @@ def classify(tcpFile): #, filename, plotPath):
 
 folder = sys.argv[1]
 
-for i in range(5000,50000):
-    print( i, classify(folder+str(i)+.csv))
+##for i in range(5000,50000):
+print(classify(folder))
