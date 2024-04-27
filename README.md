@@ -26,6 +26,9 @@ cleaned data is stored in Gordon/Data/windows.csv
 ``` python3 tcpClassify ../Data/windows.csv ```
 
 The final data at the end of either of the above tests are stored in ```windows.csv```. The individual trials for 'multiple-trails-per-RTT' test type are stored as ```windows1.csv```, ```windows2.csv```, ... ```windowsn.csv``` for 'n' trials.
-Plot the results using ``` gnuplot plot.plt --persist ``` for multiple-trials tests.  
+
+Plot the results using ``` gnuplot plot.plt --persist ``` for multiple-trials tests.
+
+[https://jumpshare.com/viewer/eps](https://jumpshare.com/viewer/eps) for easy converting EPS image to PNG
 
 
